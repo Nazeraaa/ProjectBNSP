@@ -1,0 +1,93 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120vh;
+            margin: 0;
+            background: url(./bg-image.png);
+        }
+        .form-container {   
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 400px;
+        }
+        .form-header {
+            background-color: #87ceeb;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+            font-size: 18px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+
+        .test img#selectedImage {
+            width: 80px;
+            height: auto;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="number"],
+        .form-group input[type="date"],
+        .form-group select {
+            width: calc(100% - 10px);
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group input[type="radio"] {
+            margin-right: 5px;
+        }
+        .form-group input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .form-group .inline {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .form-group .inline label {
+            display: inline;
+        }
+        .form-group .readonly {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .form-actions {
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-actions button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-actions .btn-calculate {
+            background-color: #87ceeb;
+            color: white;
+        }
+        .form-actions .btn-save {
+            background-color: #d3d3d3;
+            color: black;
+        }
+        .form-actions .btn-cancel {
+            background-color: #e6e6fa;
+            color: black;
+        }
